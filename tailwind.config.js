@@ -1,6 +1,5 @@
-const isProd = process.env.NODE_ENV === 'production'
-const purge = false // TODO: fix it for release
-// const purge = isProd ? ['./src/**/*.html', './src/**/*.js'] : []
+const isProd = process.env.NETLIFY === 'true'
+const purge = isProd ? ['./src/**/*.html', './src/**/*.js'] : false
 
 module.exports = {
   purge,
