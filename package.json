@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "parcel serve src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "parcel": "^2.0.0-nightly.481",
+    "postcss": "^8.2.1",
+    "postcss-modules": "^4.0.0",
+    "posthtml-include": "^1.6.0",
+    "sass": "^1.30.0",
+    "tailwindcss": "^2.0.2"
+  }
+}
